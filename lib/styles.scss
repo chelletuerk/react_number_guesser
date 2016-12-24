@@ -1,10 +1,58 @@
 $font: 'Open Sans', sans-serif;
 $color: lightgreen;
 
+.body {
+  text-align: center;
+}
+
+.user-guess {
+  font-size: 80px;
+  text-align: center;
+}
+
+.rendered-guess {
+  font-size: 40px;
+  color: magenta;
+  margin-right: 35px;
+}
+
 h1 {
   font-family: $font;
-  font-size: 100px;
+  font-size: 60px;
   color: $color;
+}
+
+ul {
+  text-align: center;
+}
+
+input[type=number]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+input {
+  height: 200px;
+  width: 200px;
+  color: magenta;
+  text-align: center;
+}
+
+input,
+input::-webkit-input-placeholder {
+  font-family: $font;
+  font-size: 20px;
+  vertical-align: inherit;
+}
+
+button {
+    font-size: 35px;
+    text-align: center;
+    font-family: $font;
+    color: white;
+    background: aqua;
+    margin-top: 30px;
+    border-radius: 20vh;
+    border: none;
 }
 
 // header {
