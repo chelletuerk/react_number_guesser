@@ -11,7 +11,7 @@ $color: lightgreen;
 }
 
 .rendered-guess {
-  font-size: 40px;
+  font-size: 90px;
   color: magenta;
   margin-right: 35px;
 }
@@ -44,12 +44,25 @@ input::-webkit-input-placeholder {
   vertical-align: inherit;
 }
 
-button {
+.submitBtn {
+    width: 235px;
     font-size: 35px;
     text-align: center;
     font-family: $font;
     color: white;
     background: aqua;
+    margin-top: 30px;
+    border-radius: 20vh;
+    border: none;
+}
+
+.clearBtn {
+    width: 235px;
+    font-size: 35px;
+    text-align: center;
+    font-family: $font;
+    color: white;
+    background: lightsalmon;
     margin-top: 30px;
     border-radius: 20vh;
     border: none;
