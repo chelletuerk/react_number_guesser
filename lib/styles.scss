@@ -13,18 +13,26 @@ $color: lightgreen;
 .rendered-guess {
   font-size: 30px;
   color: magenta;
-  margin-right: 35px;
 }
 
 h1 {
   font-family: $font;
   font-size: 60px;
   color: $color;
+  text-align: center;
+}
+
+h2 {
+  font-family: $font;
+  font-size: 20px;
+  text-align: center;
 }
 
 ul {
   text-align: center;
   list-style-type: none;
+  height: 100px;
+  margin-right: 25px;
 }
 
 input[type=number]::-webkit-inner-spin-button {
@@ -77,107 +85,14 @@ input::-webkit-input-placeholder {
     }
 }
 
-// header {
-//   width: auto;
-//   height: 80px;
-//   background-color: #404041;
-//   text-align: center;
-//   }
-//
-// body {
-//   text-align: center;
-//   }
-//
-// button {
-//   display: inline-block;
-//   border-style: none;
-//   margin: 30px auto;
-//   border-radius: 20px;
-//   background: #D0D2D3;
-//   color: #FFFFFF;
-//   height: 30px;
-//   width: 150px;
-//   font-family: $font;
-//   font-size: 15px;
-//   }
-//
-// .reset {
-//   width: 300px;
-//   font-size: 15px;
-//   font-family: $font;
-//   background: #D0D2D3;
-//   color: #FFFFFF;
-//   }
-//
-// section {
-//   margin: auto;
-//   }
-//
-// .pinkNum {
-//   color: #ED458B;
-//   font-size: 40px;
-//   font-family: $font;
-//   font-weight: bold;
-//   vertical-align: middle;
-//   }
-//
-// .blkNum {
-//   color: #E6E7E8;
-//   font-size: 40px;
-//   font-family: $font;
-//   vertical-align: middle;
-//   }
-//
-// .userGuess {
-//   width: 300px;
-//   height: 200px;
-//   font-family: $font;
-//   font-size: 150px;
-//   color: #EB008B;
-//   }
-//
-// .guessText {
-//   font-family: $font;
-//   font-size: 20px;
-//   color: #404041;
-//   margin-top: 50px;
-//   }
-//
-// .highLow {
-//   width: 300px;
-//   height: 50px;
-//   font-family: $font;
-//   font-size: 20px;
-//   color: #404041;
-//   }
-//
-// .clear {
-//   font-family: $font;
-//   }
-//
-// .userInput {
-//   width: 350px;
-//   height: 30px;
-//   margin-top: 30px;
-//   margin-bottom: 30px;
-//   font-size: 20px;
-//   font-family: $font;
-//   }
-//
-//
-// @media screen and (max-width: 600px) {
-//
-// button {
-//     display: block;
-//     margin: auto;
-//   }
-//
-// .submit {
-//     width: 300px;
-//   }
-//
-// .clear {
-//     width: 300px;
-//     margin-top: 20px;
-//   }
-// }
+.resetBtn {
+      width: 235px;
+      font-size: 35px;
+      text-align: center;
+      font-family: $font;
+      color: white;
+      background: lightsalmon;
+      margin-top: 30px;
+      border-radius: 20vh;
+      border: none;
+}
