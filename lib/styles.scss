@@ -1,38 +1,31 @@
 $font: 'Open Sans', sans-serif;
-$color: lightgreen;
+$color: gray;
+$disable: lightgray;
 
-.body {
+html {
   text-align: center;
-}
-
-.user-guess {
-  font-size: 30px;
-  text-align: center;
-}
-
-.rendered-guess {
-  font-size: 30px;
-  color: magenta;
 }
 
 h1 {
   font-family: $font;
-  font-size: 60px;
-  color: $color;
-  text-align: center;
+  font-size: 40px;
 }
 
 h2 {
   font-family: $font;
-  font-size: 20px;
-  text-align: center;
+  font-size: 15px;
 }
 
 ul {
-  text-align: center;
   list-style-type: none;
   height: 100px;
   margin-right: 25px;
+}
+
+li {
+  font-family: $font;
+  font-weight: bold;
+  font-size: 15px;
 }
 
 input[type=number]::-webkit-inner-spin-button {
@@ -41,58 +34,72 @@ input[type=number]::-webkit-inner-spin-button {
 
 input {
   height: 40px;
-  width: 300px;
-  color: magenta;
-  text-align: center;
+  width: 366px;
+  border: solid gray 1px;
 }
 
 input,
 input::-webkit-input-placeholder {
   font-family: $font;
   font-size: 20px;
+  border-radius: 5px;
   vertical-align: inherit;
 }
 
+.user-guess {
+  font-family: $font;
+  font-size: 30px;
+  text-align: center;
+}
+
+.shown-guess {
+  font-weight: bolder;
+  font-size: 45px;
+}
+
 .submitBtn {
-    width: 235px;
-    font-size: 35px;
-    text-align: center;
+    width: 175px;
+    height: 40px;
+    font-size: 15px;
+    font-weight: bolder;
     font-family: $font;
-    color: white;
-    background: aqua;
+    background: $color;
     margin-top: 30px;
-    border-radius: 20vh;
-    border: none;
+    border-radius: 5px;
+    border: solid gray 1px;
+    margin-right: 10px;
 
     &[disabled] {
-      background: grey;
+      background: $disable;
     }
 }
 
 .clearBtn {
-    width: 235px;
-    font-size: 35px;
-    text-align: center;
+    width: 175px;
+    height: 40px;
+    font-size: 15px;
+    font-weight: bolder;
     font-family: $font;
-    color: white;
-    background: lightsalmon;
+    background: $color;
     margin-top: 30px;
-    border-radius: 20vh;
-    border: none;
+    border-radius: 5px;
+    border: solid gray 1px;
+    margin-left: 10px;
 
     &[disabled] {
-      background: grey;
+      background: $disable;
     }
 }
 
 .resetBtn {
-      width: 235px;
-      font-size: 35px;
-      text-align: center;
+      width: 175px;
+      height: 40px;
+      font-size: 15px;
+      font-weight: bolder;
       font-family: $font;
-      color: white;
-      background: lightsalmon;
+      background: $color;
       margin-top: 30px;
-      border-radius: 20vh;
+      border-radius: 5px;
+      border: solid gray 1px;
       border: none;
 }
