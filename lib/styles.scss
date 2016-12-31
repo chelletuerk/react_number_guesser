@@ -26,6 +26,7 @@ li {
   font-family: $font;
   font-weight: bold;
   font-size: 15px;
+  list-style-type: none;
 }
 
 input[type=number]::-webkit-inner-spin-button {
@@ -137,4 +138,9 @@ input::-webkit-input-placeholder {
   height: 30px;
   margin-left: 10px;
   margin-top: 20px;
+}
+
+.range {
+  margin-top: 15px;
+  font-size: 20px;
 }
