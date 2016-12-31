@@ -47,6 +47,13 @@ input::-webkit-input-placeholder {
   vertical-align: inherit;
 }
 
+span {
+  margin-left: 20px;
+}
+
+.min {
+  margin-right: 60px;
+}
 .user-guess {
   font-family: $font;
   font-size: 30px;
